@@ -19,6 +19,7 @@
 		04AA606C1707C0D0006E3734 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA606B1707C0D0006E3734 /* ViewController.m */; };
 		04AA606F1707C0D0006E3734 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AA606D1707C0D0006E3734 /* ViewController_iPhone.xib */; };
 		04AA60721707C0D0006E3734 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AA60701707C0D0006E3734 /* ViewController_iPad.xib */; };
+		04AA607A1707C1A9006E3734 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA60791707C1A9006E3734 /* CalendarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		04AA606B1707C0D0006E3734 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04AA606E1707C0D0006E3734 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		04AA60711707C0D0006E3734 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		04AA60781707C1A9006E3734 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		04AA60791707C1A9006E3734 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		04AA60581707C0D0006E3734 /* CalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04AA60781707C1A9006E3734 /* CalendarView.h */,
+				04AA60791707C1A9006E3734 /* CalendarView.m */,
 				04AA60611707C0D0006E3734 /* AppDelegate.h */,
 				04AA60621707C0D0006E3734 /* AppDelegate.m */,
 				04AA606A1707C0D0006E3734 /* ViewController.h */,
@@ -180,6 +185,7 @@
 				04AA605F1707C0D0006E3734 /* main.m in Sources */,
 				04AA60631707C0D0006E3734 /* AppDelegate.m in Sources */,
 				04AA606C1707C0D0006E3734 /* ViewController.m in Sources */,
+				04AA607A1707C1A9006E3734 /* CalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
